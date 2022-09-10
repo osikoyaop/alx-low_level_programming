@@ -14,5 +14,5 @@ for (i = 0; i < 10; i++)
 	printf("%i", i);
 }
 printf("\n");
-return (o);
+return (0);
 }
