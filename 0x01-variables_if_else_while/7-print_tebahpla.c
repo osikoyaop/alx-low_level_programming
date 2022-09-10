@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - print if the number is positive, zero or negative
  *
@@ -9,10 +8,10 @@
  */
 int main(void)
 {
-char ch;
-for (ch = 'z' ; ch >= 'a' ; ch--)
+char c;
+for (c = 'z' ; c >= 'a' ; c--)
 {
-putchar(ch);
+putchar(c);
 }
 putchar('\n')
 return (0);
