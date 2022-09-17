@@ -22,7 +22,7 @@ void print_diagonal(int n)
 			}
 				_putchar('\\');
 
-				if (draw == (n- 1))
+				if (draw == (n - 1))
 				{
 					continue;
 				}
