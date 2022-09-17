@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - print character "\" n times
- * @n: number of characters to draw
+ *print_diagonal - print character '\' n times
+ *@n: number of characters to draw
  */
 
 void print_diagonal(int n)
