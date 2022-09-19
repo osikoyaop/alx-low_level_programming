@@ -11,11 +11,13 @@
 void reset_to_98(int *n);
 {
 	int n;
+
 	n = 402;
 
-	_putchar("n = %d\n", n);
+	putchar("n = %d\n", n);
 	reset_to_98("&n");
 
-	_putchar("n = %d\n", n);
-	_putchar('\n');
+	putchar("n = %d\n", n);
+	putchar('\n');
+	return (0);
 }
