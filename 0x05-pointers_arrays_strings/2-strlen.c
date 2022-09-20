@@ -11,6 +11,5 @@ int _strlen(char *s)
 {
 	int len;
 
-	*s = "School";
-	len = _strlen(*s);
+	len = *s
 }
