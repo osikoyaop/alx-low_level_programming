@@ -10,7 +10,9 @@
 int _strlen(char *s)
 {
 	int len;
+	*s = "cisfun";
 
-	len = 16;
-	len = *s;
+	for (len = 0; _strlen(*s) != '\0'; ++len)
+	printf("length of the string: %d", len);
+	return (0);
 }
