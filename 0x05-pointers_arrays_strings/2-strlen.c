@@ -10,13 +10,10 @@
 int _strlen(char *s)
 {
 	int len;
-	char *s[7] = "cisfun"
-
+	
 	len = 0;
-
-	for (len = 0; *s[len] != '\0'; len++)
-	{
-		_putchar("length of the string: %d", len);
-	}
-	_putchar('\n');
+	
+	while (s(len) != '\0')
+	len++;
+	return (len);
 }
