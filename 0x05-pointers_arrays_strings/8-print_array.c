@@ -20,5 +20,5 @@ void pint_array(int *a, int n)
 			continue;
 		printf(", ");
 	}
-	pintf("\n");
+	printf("\n");
 }
