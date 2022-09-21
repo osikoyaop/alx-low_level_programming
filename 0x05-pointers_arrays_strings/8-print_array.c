@@ -7,6 +7,7 @@
  * @a: an array of integers.
  *
  * @n: the numbers of elements to be printed.
+ * Return: return a
  */
 
 void pint_array(int *a, int n)
