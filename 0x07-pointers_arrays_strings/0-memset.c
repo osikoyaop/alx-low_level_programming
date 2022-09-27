@@ -7,7 +7,7 @@
  * @b: parameter of constant byte
  * @n: number of bytes
  * @s: pointer
- * Returns: A pointer
+ * Return: A pointer
  */
 
 char *_memset(char *s, char b, unsigned int n)
