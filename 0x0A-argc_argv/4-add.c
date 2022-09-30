@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - program that adds positive numbers
@@ -7,29 +8,22 @@
  *
  * Return: 0
  */
-int main(int argc, char **argv)
+
+int main(int argc, char *argv[])
 {
 	int i, j, sum = 0;
-	char *flag;
 
-	if (argc < 2)
+	for (i = 1; i < argc; i++)
 	{
-		printf("0\n");
-		return (0);
-	}
-
-	for (i = 1; argv[i]; i++)
-	{
-		j = atoi(argv[i], &flag, 10);
-		if (*flag)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			printf("Error!\n");
-			return (1);
+			if (argv[i][j] < '0' || argv[i][j] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		else
-		{
-			sum += j;
-		}
+		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
