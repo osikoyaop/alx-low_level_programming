@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * malloc_checked - func allocates memory using malloc
@@ -12,7 +12,7 @@ void *malloc_checked(unsigned int b)
 
 	ptr = malloc(b);
 
-	if (str == NULL)
+	if (ptr == NULL)
 		exit(98);
 	return (ptr);
 }
