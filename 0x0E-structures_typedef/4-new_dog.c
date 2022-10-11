@@ -8,7 +8,7 @@
  * @owner: owner of the dog
  *
  * Return: struct dog
- * if fails, returns NULL
+ * if fails, return NULL
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
